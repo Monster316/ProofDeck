@@ -15,9 +15,9 @@ This is a distinct focus from existing test-impact analyzers: ProofDeck asks *"D
 Requires Node.js **20+**, no packages to install.
 
 ```bash
-# from the root of your cloned Monster316 profile repository:
-node projects/proofdeck/proofdeck.mjs check projects/proofdeck/example.proofdeck.json projects/proofdeck json
-node --test projects/proofdeck/proofdeck.test.mjs
+# from the root of this repository:
+node proofdeck.mjs check example.proofdeck.json . json
+node --test proofdeck.test.mjs
 ```
 
 The provided example is **illustrative** and deliberately requires `config.example.txt`, which is not bundled, so it will show a failing claim unless you create the sample files.
