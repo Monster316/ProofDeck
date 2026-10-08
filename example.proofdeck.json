@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "claims": [
+    {
+      "id": "has-readme",
+      "title": "The project provides developer documentation",
+      "evidence": [
+        { "type": "exists", "file": "README.md" },
+        { "type": "contains", "file": "README.md", "text": "Getting started" }
+      ]
+    },
+    {
+      "id": "no-example-token",
+      "title": "Example config does not contain a placeholder secret",
+      "evidence": [
+        { "type": "notContains", "file": "config.example.txt", "text": "SECRET_KEY=123" }
+      ]
+    }
+  ]
+}
