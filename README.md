@@ -1,3 +1,5 @@
+[![Node.js Tests](https://github.com/Monster316/ProofDeck/actions/workflows/tests.yml/badge.svg)](https://github.com/Monster316/ProofDeck/actions/workflows/tests.yml)
+
 # ProofDeck
 
 **A tiny, dependency-free repository claim-to-evidence checker.**
